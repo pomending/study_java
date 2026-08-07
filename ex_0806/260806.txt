@@ -1,0 +1,28 @@
+자동 줄 정렬 : alt+ shift + F (들여쓰기 알아서 해줌)
+
+git config --global user.name "pomending"
+git config --global user.email "pomending@gmail.com"
+
+
+git init
+git add ./폴더명
+git commit -m "메시지"
+git remote add origin https://github.com/pomending/study_java.git
+git remote set-url origin https://github.com/pomending/study_java.git
+git push -u origin master --force
+다시 할 때는 2,3,6번
+
+이 코드 주석좀 달아줘 > 범위 긁고 ctrl + K
+
+//키보드에서 값을 받기 위한 scanner객체
+Scanner sc = new Scanner(System.in);
+ctrl + space
+import java.util.Scanner;
+
+
+alt + shift + 위아래 >라인 전체를 위아래로 복사
+alt +위아래> 라인 전체를 위아래로 이동
+
+
+
+다중 for, while, break, continue, label 등등 다음주에 할예정..
