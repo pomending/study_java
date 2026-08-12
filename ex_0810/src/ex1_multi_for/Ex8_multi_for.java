@@ -24,9 +24,10 @@ public class Ex8_multi_for {
 
         for( int i = 1; i <= 10; i++ ){
 
-            for(int j = 0; j < 10; j++){
+            for( int j = 0; j < 10; j++ ){
 
-                System.out.print(( i + j < 11? ( i + j ) : ( i + j - 10)) + " ");
+                int num = i + j;
+                System.out.print(( num < 11 ? num : ( num - 10 )) + " ");
 
             }
 
