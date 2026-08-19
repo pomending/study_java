@@ -7,8 +7,6 @@ public class PasswordMain {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-
-        /* 
         
         StringValidation pw1 = new StringValidation();
 
@@ -16,7 +14,6 @@ public class PasswordMain {
         String pw = sc.next();
         pw1.makePassword(pw);
 
-        */
 
         System.out.print("Java 추출 및 변환 : ");
         String str = sc.next();
