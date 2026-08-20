@@ -36,7 +36,6 @@ public class LibraryMain {
         b6.setAuthor("ab");
         b6.setIsbn("0006");
 
-
         library.addBook(b1);
         library.addBook(b2);
         library.addBook(b3);

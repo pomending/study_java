@@ -19,12 +19,8 @@ public class UpdownMain {
         Scanner sc = new Scanner(System.in);
 
         UpdownSub us = new UpdownSub();
-        
-        int cnt = 0;
 
         while( true ){
-
-            cnt++;
 
             System.out.print("정수 : ");
             int num = sc.nextInt();
@@ -32,13 +28,29 @@ public class UpdownMain {
             String res = us.checkUpDown( num );
 
             if( res.equals("회 만에 정답") ){
-                System.out.println(cnt + res);
+                System.out.println(us.getCount() + res);
                 break;
+
             }else{
                 System.out.println(res);
             }
 
         }
+
+        /*
+        
+        int select = 0;
+        boolean check = false;
+
+        do{
+
+            syso("정수 : ");
+            select = sc.nextInt();
+            us.check(select);
+        
+        }while( check );
+
+        */
 
     }
     
